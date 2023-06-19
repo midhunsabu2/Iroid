@@ -1,0 +1,143 @@
+.Text1{
+    font-weight: 500;
+    padding-right: 14px;
+}
+.heading{
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-container{
+    margin: auto;
+    padding: 10px 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+img{
+    width: 55%;
+}
+.ico1{
+    height: 17vh;
+}
+.ico2{
+    height: 8.5vh;
+}
+
+.input-field{
+    width: 28%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 8px 3px lightgray;
+    text-align: center;
+}
+.box{
+    flex-basis:21%;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 8px 3px lightgray;
+    border-radius: 5px;
+    transition: transform 0.5s;
+}
+.box:hover{
+    box-shadow: 0px 0px 8px 3px lightgray;
+    transform: scale(1.04);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.btn4{
+    font-size: 14px;
+    padding: 9px 29px;
+    background: linear-gradient(to right,rgb(2, 235, 248),rgb(5, 121, 222),rgb(7, 2, 139));
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.dot{
+    width: 17px;
+    height: 3.5px;
+    border-radius: 10px;
+    background: lightgray;
+    margin: 35px 8px 45px 8px;
+}
+
+.dot1{
+    background: linear-gradient(to right,rgb(2, 235, 248),rgb(5, 121, 222),rgb(7, 2, 139));
+}
+
+
+@media(max-width:998px){
+    
+    .Text1{
+        padding-bottom: 12px;
+        padding-right: 0;
+    }
+    .box-container{
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+       gap: 15px;
+    }
+
+    .img1{
+        height: 22vh;
+    }
+    .img2{
+        height: 12vh;
+
+    }
+
+    .box{
+        margin: 10px;
+    }
+
+    .input-field{
+        width: 30%;
+    }
+
+    .dot{
+        margin: 35px 3px 45px 3px;
+    }
+}
+
+@media (max-width:470px){
+
+    .Text1{
+        padding-bottom: 12px;
+    }
+
+    .input-field{
+        width: 50%;
+        font-size: 11px;
+    }
+    .box-container{
+        padding: 10px 40px;
+    }
+    .dot{
+        margin: 35px 3px 45px 3px;
+    }
+}

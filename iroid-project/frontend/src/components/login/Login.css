@@ -1,0 +1,51 @@
+.btn2{
+    font-size: 14px;
+    padding: 7px 10px;
+    background: linear-gradient(to right,rgb(2, 235, 248),rgb(5, 121, 222),rgb(7, 2, 139));
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+}
+.btn3{
+    margin-top: 5px;
+    padding: 12px 0px;
+    width: 100%;
+    background: linear-gradient(to right,rgb(2, 235, 248),rgb(5, 121, 222),rgb(7, 2, 139));
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin: -5px 0 15px 0;
+}
+.checkbox > label{
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+#checkbox{
+    border: none;
+    box-shadow: 0px 0px 2px .1px rgba(110, 109, 109, 0.5);
+}
+
+.forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot a{
+    font-size: 12px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+@media(max-width:768px) {
+    .forgot a{
+        color: #333;
+        margin-bottom: 50px;
+    }
+}
